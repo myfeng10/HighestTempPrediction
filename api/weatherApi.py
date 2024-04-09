@@ -8,7 +8,7 @@ from save import save_to_csv
 def weatherApi_history(zipcode,date,city):
     url = "http://api.weatherapi.com/v1/history.json"
     parameters = {
-        "key": "a0a557c3dc5346d5bfc130830241803",  
+        "key": "placeholder",   # please change to your own key
         "q": zipcode, 
         "dt": date,  
     }
