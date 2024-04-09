@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from save import save_to_csv
 import pandas as pd
 
-api_key = 'ea921f6e1981bbd3c9c28b47207eb2de'
+api_key = 'placeholder' # please change to your own api key
 
 def getOpenWeather(lat,lon,city,date):
     units = 'metric'
