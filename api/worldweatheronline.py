@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 from save import save_to_csv
 import pandas as pd
 
-# Your API key from World Weather Online
-api_key = 'c47269f84f30466bb8e230346241803'
+
+api_key = 'placeholder' #please change it to your own key
 
 def wordWeatherApi(q,date,city):
     base_url = "https://api.worldweatheronline.com/premium/v1/past-weather.ashx"
